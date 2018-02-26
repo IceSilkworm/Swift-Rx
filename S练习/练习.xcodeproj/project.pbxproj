@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18A211E82004C18F00A1BD45 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A211E72004C18F00A1BD45 /* AsyncOperation.swift */; };
+		18A211EA2004C1C600A1BD45 /* OperationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A211E92004C1C600A1BD45 /* OperationTest.swift */; };
 		18CA8EA01FA08BA400ECEF86 /* Generics_04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA8E9F1FA08BA400ECEF86 /* Generics_04.swift */; };
 		532869E61F7214FA00372A1A /* ReferenceCount_01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532869E51F7214FA00372A1A /* ReferenceCount_01.swift */; };
 		532869E81F721E1B00372A1A /* Reference_02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 532869E71F721E1B00372A1A /* Reference_02.swift */; };
@@ -93,6 +95,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18A211E72004C18F00A1BD45 /* AsyncOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
+		18A211E92004C1C600A1BD45 /* OperationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationTest.swift; sourceTree = "<group>"; };
 		18CA8E9F1FA08BA400ECEF86 /* Generics_04.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generics_04.swift; sourceTree = "<group>"; };
 		532869E51F7214FA00372A1A /* ReferenceCount_01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceCount_01.swift; sourceTree = "<group>"; };
 		532869E71F721E1B00372A1A /* Reference_02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reference_02.swift; sourceTree = "<group>"; };
@@ -190,6 +194,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A211E62004C15F00A1BD45 /* Operation线程 */ = {
+			isa = PBXGroup;
+			children = (
+				18A211E72004C18F00A1BD45 /* AsyncOperation.swift */,
+				18A211E92004C1C600A1BD45 /* OperationTest.swift */,
+			);
+			name = "Operation线程";
+			sourceTree = "<group>";
+		};
 		532869E41F7214C500372A1A /* 自动引用计数 */ = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +309,7 @@
 				5338B0B41F7368EF005D867C /* 协议 */,
 				532D9C2B1F74C0D1002FC5AD /* 泛型 */,
 				537C69F51F3AF9770038B3E2 /* demo1.swift */,
+				18A211E62004C15F00A1BD45 /* Operation线程 */,
 				537C69F71F3AFCAC0038B3E2 /* demo2.swift */,
 				537C69FA1F3B06520038B3E2 /* demo3.swift */,
 				537C69D91F3AF93F0038B3E2 /* Main.storyboard */,
@@ -588,6 +602,7 @@
 				532869ED1F72410E00372A1A /* Error_02.swift in Sources */,
 				539E54261F453C45001889F4 /* Subscript.swift in Sources */,
 				53E0D63B1F3D3F9C009A9375 /* Closures04.swift in Sources */,
+				18A211EA2004C1C600A1BD45 /* OperationTest.swift in Sources */,
 				53E0D6291F3C152B009A9375 /* SetDemo.swift in Sources */,
 				532D9C281F73988B002FC5AD /* Protocol_11.swift in Sources */,
 				53E0D62B1F3C31DA009A9375 /* Function02.swift in Sources */,
@@ -608,6 +623,7 @@
 				53D8ED8E1F4135220089E6BD /* Error_01.swift in Sources */,
 				5338B0B61F73690F005D867C /* Protocol_01.swift in Sources */,
 				532869EF1F7242DF00372A1A /* Error_03.swift in Sources */,
+				18A211E82004C18F00A1BD45 /* AsyncOperation.swift in Sources */,
 				53E0D63D1F3D4F88009A9375 /* Closures05.swift in Sources */,
 				5338B0BA1F736EB0005D867C /* Protocol_03.swift in Sources */,
 				53D8ED9B1F4149D10089E6BD /* Properties_01.swift in Sources */,
